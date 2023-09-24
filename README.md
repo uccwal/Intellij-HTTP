@@ -1,6 +1,9 @@
-# GET localhost:8080/magic-api/employees
+# GET 요청
 
-# POST localhost:8080/magic-api/employees
+### GET localhost:8080/magic-api/employees
+
+# POST 요청
+### POST localhost:8080/magic-api/employees
 Content-Type: application/json
 
 {
@@ -9,7 +12,8 @@ Content-Type: application/json
   "email": "sfsf@code.com"
 }
 
-# PUT localhost:8080/magic-api/employees/4
+# PUT 요청
+### localhost:8080/magic-api/employees/4
 Content-Type: application/json
 
 {
@@ -18,9 +22,12 @@ Content-Type: application/json
   "email": "sfsf@code.com"
 }
 
-# DELETE localhost:8080/magic-api/employees/4
+# DELETE 요청
+### localhost:8080/magic-api/employees/4
 
+4 -> PK
 
-# GET localhost:8080/magic-api/members
+# 사용자 인증 있을시
+### localhost:8080/magic-api/members
 Authorization: Basic john test123
 사용자인증 : Basic 아이디 패스워드
